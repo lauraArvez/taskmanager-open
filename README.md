@@ -20,15 +20,7 @@ Inspirada en el enfoque de **arquitectura OPEN** utilizada en entornos corporati
   - **Application**: casos de uso (`TaskService`)
   - **Infrastructure**: persistencia (`TaskRepositoryImpl`, `TaskEntity`, `SpringDataTaskRepository`)
   - **API**: controladores y DTOs
-
-## Estructura de carpetas
-```plaintext
-src/main/java/com/example/taskmanager
-├── api               # Controladores REST y DTOs
-├── application       # Lógica de aplicación
-├── domain            # Entidades y contratos de dominio
-└── infrastructure    # Adaptadores de persistencia
-
+ 
 ## Documentación Swagger
 Una vez en ejecución, accede a: http://localhost:8080/swagger-ui.html
 
@@ -38,5 +30,15 @@ Una vez en ejecución, accede a: http://localhost:8080/swagger-ui.html
 - GET /api/tasks/{id} → Obtiene una tarea por ID
 - PUT /api/tasks/{id} → Actualiza una tarea
 - DELETE /api/tasks/{id} → Elimina una tarea
+
+## Estructura de carpetas
+```plaintext
+src/main/java/com/example/taskmanager
+├── api               # Controladores REST y DTOs
+├── application       # Lógica de aplicación
+├── domain            # Entidades y contratos de dominio
+└── infrastructure    # Adaptadores de persistencia
+
+
 
 

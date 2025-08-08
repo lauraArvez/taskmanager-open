@@ -1,3 +1,4 @@
+![Banner](./assets/API CRUD basic.png)
 # Task Manager API
 
 API REST CRUD para gestión de tareas, desarrollada con **Spring Boot**, **JPA/H2** y documentada con **Swagger/OpenAPI**.  

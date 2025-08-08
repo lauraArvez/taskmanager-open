@@ -38,7 +38,3 @@ src/main/java/com/example/taskmanager
 ├── application       # Lógica de aplicación
 ├── domain            # Entidades y contratos de dominio
 └── infrastructure    # Adaptadores de persistencia
-
-
-
-
